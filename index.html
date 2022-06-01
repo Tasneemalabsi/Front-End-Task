@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Register</title>
+</head>
+<body>
+
+<form id="newForm">
+    <img src="formImage.png" alt="" id="image">
+    <div id="fieldSet">
+    <legend id="title">STUDENT REGISTRATION FORM</legend>
+    <input placeholder="First name" id="firstName" name="firstName"/>
+    <input placeholder="Last name" id="lastName" name="lastName"/>
+    <input placeholder="Address" id="address" name="address"/>
+    <div id="genderDiv">
+    <label for="">Gender</label>
+    <input type="radio" id="female" name="gender" value="female"> Female
+    <input type="radio" id="male" name="gender" value="male"> Male
+    <input type="radio" id="other" name="gender" value="other"> Other
+</div>
+<!-- <div id="dropDown"> -->
+    <select name="state" id="state" class="location" >
+        <option value="">State</option>
+        <option value="jordan">Jordan</option>
+        <option value="saudiArabia">Saudi Arabia</option>
+        <option value="turkey">Turkey</option>
+      </select>
+    <select name="city" id="city" class="location">
+        <option value="" >City</option>
+        <option value="amman">Amman</option>
+        <option value="zarqa">Zarqa</option>
+        <option value="madaba">Madaba</option>
+        <option value="riyadh"> Riyadh</option>
+        <option value="jeddah">Jeddah</option>
+        <option value="madina">Madina</option>
+        <option value="istanbul">Istanbul</option>
+        <option value="antalya">Antalya</option>
+        <option value="ankara">Ankara</option>
+      </select>
+    <!-- </div> -->
+      <input placeholder="Pincode" id="pinCode" name="pinCode"/>
+      <input placeholder="Course" id="course" name="course"/>
+      <input placeholder="Email" id="emailID" name="emailID"/>
+      <div id="buttons">
+      <button id="resetButton">RESET ALL</button>
+      <button type="submit" id="submit">SUBMIT FORM</button>
+    </div>
+    </div>
+
+</form>
+</body>
+<script src="script.js"></script>
+</html>
