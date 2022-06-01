@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    display: inline-block;
+    /* position: relative; */
+}
+
+img{
+    width: 50%;
+}
+#loginSet{
+
+    height: 200%;
+    margin-top: 30px;
+    margin-left: 3%;
+    height:100vh;
+    /* float: right; */
+
+    
+}
+#login{
+    background-color: white;
+    width: 150%;
+    display:flex;
+}
+
+#email {
+    height: 30px;
+    padding: 3px;
+    /* margin-right: 10px; */
+    margin-top: 2%;
+    width: 65%;
+
+}
+
+#code {
+    height: 30px;
+    padding: 3px;
+    /* margin-right: 10px; */
+    margin-top: 2%;
+    width: 65%;
+
+}
+
+#loginButton {
+ 
+    height: 40px;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    margin-top: 2%;
+
+}
+
+#loginTitle {
+    font-style:inherit;
+    padding-bottom: 6%;
+    padding-top: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+}
