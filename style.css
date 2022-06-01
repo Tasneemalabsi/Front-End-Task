@@ -1,0 +1,140 @@
+body {
+    background-color: black;
+    display: inline-block;
+    /* position: relative; */
+}
+
+img{
+    width: 50%;
+}
+#fieldSet{
+
+    height: 200%;
+    margin-top: 30px;
+    margin-left: 3%;
+    height:100vh;
+
+    
+}
+#newForm{
+    background-color: white;
+    width: 150%;
+    display:flex;
+}
+#title {
+    font-style:inherit;
+    padding-bottom: 6%;
+    padding-top: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+#firstName {
+    height: 30px;
+    padding: 3px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#lastName {
+    height: 30px;
+    padding: 3px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#address {
+    height: 30px;
+    padding: 3px;
+    /* margin-right: 10px; */
+    margin-top: 2%;
+    width: 65%;
+
+}
+#genderDiv {
+    display: flex;
+    width: 40%;
+    justify-content: space-between; 
+    margin-top: 5%;
+}
+#dropDown {
+    display: flex;
+    width: 65%;
+    /* justify-content: space-between;  */
+    margin-top: 3%;
+} 
+#state {
+    height: 30px;
+    padding: 3px;
+    margin-right: 10px;
+} 
+
+#city {
+    height: 30px;
+    padding: 3px;
+    margin-right: 10px;
+    /* margin-top: 10px; */
+}
+
+#pinCode {
+    height: 30px;
+    padding: 3px;
+    /* margin-right: 10px; */
+    margin-top: 3%;
+    width: 65%;
+    display: block;
+
+}
+#emailID {
+    height: 30px;
+    padding: 3px;
+    /* margin-right: 10px; */
+    margin-top: 3%;
+    width: 65%;
+    display: block;
+
+}
+#course {
+    height: 30px;
+    padding: 3px;
+    margin-top: 3%;
+    width: 65%;
+    display: block;
+
+}
+#resetButton {
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+#submit {
+ 
+        height: 40px;
+        padding: 10px;
+        background-color: orange;
+        color: white;
+        border-radius: 5px;
+
+}
+#buttons {
+    clear: both;
+    /* margin-right: 20%; */
+    width: 70%;
+    float: right;
+    margin-top: 20px;
+}
+
+.location { 
+    background-color: #f4f4f4; 
+    width: 100px; 
+    height:50px; 
+    margin: 6px; 
+    text-align:start; 
+    font-size: medium; 
+    background-color: white;
+    padding: 30px;
+    color: gray;
+} 
+
+
+
